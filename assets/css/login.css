@@ -1,0 +1,22 @@
+/********
+* start login css
+*********/
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/body-bg.jpeg);
+    background-repeat: no-repeat;
+}     
+.login-contennt{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.login-contennt .card{
+    /* box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;*/
+} 
+/********
+* end login css
+*********/
