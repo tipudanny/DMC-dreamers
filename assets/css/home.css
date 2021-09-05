@@ -1,0 +1,169 @@
+/********
+* start header css
+*********/
+.header-section {
+    padding: 10px;
+}
+.dmc-text-logo {
+    color: #34495e;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+.course-text {
+    border: 1px solid #8e44ad;
+    padding: 5px 30px;
+    color: #8e44ad;
+    font-size: 14px;
+    font-weight: 500;
+}
+.user-label{
+    color: #8e44ad;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/* header right */
+.header-right-col ul li:not(:last-child){
+    margin-right:20px;
+}
+.header-right-col ul li{
+    position:relative;
+}
+.header-right-col ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: -8px;
+    transform: translateY(-50%);
+    background: #8e44ad1c;
+    width: 1px;
+    height: 17px;
+}
+.header-profile img{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header-right-icon{
+    fill:#3498db;
+}
+/********
+* end header css
+*********/
+
+
+/********
+* start banner css
+*********/
+.banner-section{
+    background:orchid;
+    
+}
+.banner-user-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.banner-heading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #fff;
+}
+.banner-sub-heading {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+}
+.banner-right-img img{
+    height: 350px;
+}
+
+
+/********
+* end banner css
+*********/
+
+
+/********
+* start category section css
+*********/
+.category-section{
+    background-color:#f8f9fa
+}
+.breaking-news-area{
+    border-radius:3px;
+    background:#dff9fb;
+}
+.breaking-news-area p{
+    font-size:13px;
+    line-height: 20px;
+    font-weight: 600;
+    color:#34495e
+}
+.breaking-news-area a{
+    font-size:13px;
+    line-height: 20px;
+    font-weight: 600;
+    color:#e74c3c;
+}
+.category-card-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #b2bec3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.category-name {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/********
+* end category section css
+*********/
+
+
+
+/********
+* Start package section css
+*********/
+.package-name-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+/********
+* end package section css
+*********/
+
+
+/********
+* start yutube video section css
+*********/
+.carousel-item{
+    height: 315px;
+}
+.carousel-item img{
+    height: 315px;
+}
+/********
+* end yutube video section css
+*********/
+
+
+/********
+* start about app section css
+*********/
+
+/********
+* end about app section css
+*********/
