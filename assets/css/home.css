@@ -11,7 +11,7 @@
     line-height: 26px;
 }
 .course-text {
-    border: 1px solid #8e44ad;
+    border: 1px solid hsl(282, 44%, 47%);
     padding: 5px 30px;
     color: #8e44ad;
     font-size: 14px;
@@ -59,7 +59,7 @@
 * start banner css
 *********/
 .banner-section{
-    background:orchid;
+    background:#9b59b6;
     
 }
 .banner-user-img img{
@@ -160,10 +160,152 @@
 *********/
 
 
-/********
-* start about app section css
-*********/
+
+
+
+
+/* =======================================================
+                    07 - 09 - 2021
+==========================================================*/
+
+
+
 
 /********
-* end about app section css
+* Start breadcrumb section css
+*********/
+.breadcrumb-section {
+    background-color: #9b59b6;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.central-est {
+    display: flex;
+    align-items: center;
+}
+.central-tes-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.central-tes-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.central_test_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+/********
+* End  breadcrumb section css
+*********/
+
+
+
+/********
+* Start section-title css
+*********/
+.section-title-text {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+}
+.section-sub-title-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 10px;
+    color: #95a5a6;
+}
+/********
+* end section-title css
+*********/
+
+
+/********
+*start central test list
+*********/
+.central-card-icon{
+    width:100px;
+    height:100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.central-card-icon img{
+    width:100%;
+}
+.central-test-description-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0984e3;
+}
+.central-test-description-sub-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #95a5a6;
+}
+/********
+*end central test list
+*********/
+
+
+
+/********
+*Start previous card list
+*********/
+ .card-header {
+    border-bottom: 1px solid rgb(95 86 86 / 10%) !important;
+}
+ .card {
+    border: 1px solid rgb(95 86 86 / 10%) !important;
+}
+.card-footer {
+    border-top: 1px solid rgb(95 86 86 / 10%) !important;
+}
+.previous-central-list .card-header, .previous-central-list .card-footer {
+    background-color: #fff !important;
+}
+.previous-test-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.previous-test-img img{
+    width:100%;
+}
+.previous-test-title-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 4px;
+    margin-left: 10px;
+    color: #38434ed9;
+}
+
+.card{
+    border-radius: 2px !important;
+}
+
+.previous-test-card-body-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #34495e;
+}
+.custom_btn_3{
+    background-color:#9b59b6 !important;
+    padding: 5px 26px !important;
+    border-radius: 3px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+/********
+*End previous card list
 *********/
