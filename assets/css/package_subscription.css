@@ -1,0 +1,111 @@
+.exam-preparation-left{
+    width:65px
+}
+.package-subscription-section .card-pading-0.card-body {
+    padding: 0px !important;
+}
+.exam-preparation-col {
+    padding: 13px;
+}
+.exam-preparation-left img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.exam-preparation-package-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #38434ed9;
+}
+.exam-package-sub-title {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #38434ed9;
+}
+.exam-preparation-right {
+    width: calc(100% - 65px);
+    padding-left: 10px;
+}
+.package-related-shap-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #00a8ff;
+}
+.package-related-shap {
+    background: rgba(44, 58, 71,.05);
+    padding: 5px 10px;
+}
+.package-info-box{
+    padding: 10px;
+}
+.package-info-item {
+    font-size: 10px;
+    font-weight: 600;
+    color: #38434ed9;
+    line-height: 22px;
+}
+
+
+.package-price-title-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(241 150 21);
+}
+
+.price-rate-card-area{
+    padding: 10px;
+}
+
+.course-expiration{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #38434ed9;
+}
+.course-rate {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #38434ed9;
+}
+.course-rate span{
+    display: inline-block;
+    position:relative;
+}
+.course-rate span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #38434ed9;
+    width: 100%;
+    height: 1px;
+}
+.buying-points-btn.btn {
+    display: inline-block;
+    font-size: 11px !important;
+    font-weight: 500;
+    background: rgba(179, 57, 57,1.0);
+    color: #fff;
+    padding: 3px 10px !important;
+    border-radius: 26px;
+    border: none;
+    outline: none;
+}
+.buying-btn {
+    display: inline-block;
+    font-size: 11px !important;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 10px !important;
+    border: none;
+    outline: none;
+    background: rgba(34, 112, 147,1.0);
+    border-radius: 1px;
+}
