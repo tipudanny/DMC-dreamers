@@ -1,0 +1,41 @@
+.merit-img{}
+.merit-card-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.merit-card-icon img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.merit-name-text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.merit-collage-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #2980b9;
+}
+.merit-point {
+    font-size: 13px;
+    font-weight: 500;
+    color: #36ce81;
+}
+.merit-number-style {
+    font-size: 15px;
+    font-weight: 700;
+    color: #8e44ad;
+}
+
+
+@media(min-width:768px){
+    
+}

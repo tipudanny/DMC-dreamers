@@ -1,0 +1,24 @@
+.video-list-thumb{
+    width:80px
+}
+.video-list-thumb img{
+    width:80px
+}
+.video-list-right{
+    width: calc(100% - 80px);
+    padding: 0px 0px 0px 10px;
+
+}
+.video-list-manage-icon{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video-list-title-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #38434ed9;
+}

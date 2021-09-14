@@ -1,0 +1,10 @@
+.flash-card-section .carousel-item img{
+    height:300px;
+    object-fit:cover;
+}
+@media(min-width:992px){
+    .flash-card-section .carousel-item img{
+        height:450px
+    }    
+}
+
